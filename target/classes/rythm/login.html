@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+</head>
+<body>
+<header>
+    <h1>欢迎登录！</h1>
+</header>
+<section>
+    <form action="" method="post">
+        <div>
+            <input type="text" name="username" id="">
+        </div>
+        <div>
+            <input type="password" name="password" id="">
+        </div>
+
+        <div>
+            <input type="text" name="captcha">
+            <img src="/captcha" onclick="this.src='/captcha?'+Math.random()" width="120" height="37">
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</section>
+</body>
+</html>
